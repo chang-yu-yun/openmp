@@ -16,17 +16,17 @@
      ```
   3. `atomic` directive
      ```
-     Computed pi =         3.14159265358977
-     CPU time (clock)                =        2.552 sec
-     Wall clock time (omp_get_wtime) =       0.6674 sec
-     Wall clock time (gettimeofday)  =       0.6674 sec
+     Computed pi =        3.141592653589683
+     CPU time (clock)                =        2.258 sec
+     Wall clock time (omp_get_wtime) =       0.5856 sec
+     Wall clock time (gettimeofday)  =       0.5856 sec
      ```
   4. `critical` directive
      ```
-     Computed pi =        3.141592653589912
-     CPU time (clock)                =        4.541 sec
-     Wall clock time (omp_get_wtime) =        1.138 sec
-     Wall clock time (gettimeofday)  =        1.138 sec
+     Computed pi =        3.141592653589761
+     CPU time (clock)                =        1.774 sec
+     Wall clock time (omp_get_wtime) =       0.5224 sec
+     Wall clock time (gettimeofday)  =       0.5224 sec
      ```
   5. SPMD
      ```

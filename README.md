@@ -1,5 +1,5 @@
 # OpenMP Practice
-1. Calculation of Pi
+1. Calculation of Pi (`pi.c`)
    - Serial version
      ```
      computed pi =        3.141592653589731

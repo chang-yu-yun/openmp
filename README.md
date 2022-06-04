@@ -1,5 +1,5 @@
 # OpenMP Practice
-- Calculation of Pi
+## Calculation of Pi
   1. Serial version 
      ```
      Computed pi =        3.141592653589731
@@ -42,3 +42,5 @@
      Wall clock time (omp_get_wtime) =      0.02871 sec
      Wall clock time (gettimeofday)  =      0.02871 sec
      ```
+  ---
+  Elapsed time: SPMD padded ≈ Parallel reduction < SPMD < Serial < `atomic` ≈ `critical`
